@@ -13,11 +13,22 @@
 
 
 int main(int argc, const char * argv[]) {
-    Brass dom("Dominic Banker", 11224, 4183.45);
-    BrassPlus dot("Dorothy Banker", 12118, 2528.01);
-    Brass & b1_ref = dom;
-    Brass & b2_ret = dot;
-    b1_ref.ViewAcct();
-    b2_ret.ViewAcct();
+    using std::count;
+    using std::endl;
+    
+    Brass Piggy("Porcelot Pigg", 381299, 4000.00);
+    BrassPlus Hoggy("Horatio Hogg", 382288, 3000.00);
+    Piggy.ViewAcct();
+    cout << endl;
+    Hoggy.ViewAcct();
+    cout << endl;
+    cout << "Depositing $1000 into the Hogg Account:\n";
+    Hoggy.Deposit(1000.00);
+    cout << "Withdrawing $4200 from the Pigg Account:\n";
+    Piggy.Withdraw(4200.00);
+    cout << "Pigg account balance:$"<<Piggy.Balance() << endl;
+    cout << "Withdraing $4200 from the Hogg Account:\n";
+    Hoggy.Withdraw(4200.00);
+    Hoggy.ViewAcct();
     return 0;
 }
