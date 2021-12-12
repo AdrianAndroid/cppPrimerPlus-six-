@@ -50,9 +50,6 @@
 		BEABAED42764F43800E0966E = {
 			isa = PBXGroup;
 			children = (
-				BEABAEE92764F78F00E0966E /* Chapter_13 */,
-				BEABAEE82764F78100E0966E /* Chapter_3 */,
-				BEABAEE72764F77400E0966E /* Chapter_2 */,
 				BEABAEDF2764F43800E0966E /* cpp_primer_plus_6 */,
 				BEABAEDE2764F43800E0966E /* Products */,
 			);
@@ -69,36 +66,15 @@
 		BEABAEDF2764F43800E0966E /* cpp_primer_plus_6 */ = {
 			isa = PBXGroup;
 			children = (
-				BEABAEE02764F43800E0966E /* main.cpp */,
-			);
-			path = cpp_primer_plus_6;
-			sourceTree = "<group>";
-		};
-		BEABAEE72764F77400E0966E /* Chapter_2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Chapter_2;
-			sourceTree = "<group>";
-		};
-		BEABAEE82764F78100E0966E /* Chapter_3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Chapter_3;
-			sourceTree = "<group>";
-		};
-		BEABAEE92764F78F00E0966E /* Chapter_13 */ = {
-			isa = PBXGroup;
-			children = (
 				BEABAEEA2765A6C500E0966E /* tabtenn0.cpp */,
 				BEABAEEB2765A6C500E0966E /* tabtenn0.hpp */,
 				BEABAEEF2765ADDC00E0966E /* tabtenn1.cpp */,
 				BEABAEF02765ADDC00E0966E /* tabtenn1.hpp */,
 				BEABAEF22765B78500E0966E /* brass.cpp */,
 				BEABAEF32765B78500E0966E /* brass.hpp */,
+				BEABAEE02764F43800E0966E /* main.cpp */,
 			);
-			path = Chapter_13;
+			path = cpp_primer_plus_6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
