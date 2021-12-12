@@ -138,7 +138,7 @@ hasDMA & hasDMA::operator=(const hasDMA & hs) {
 }
 
 std::ostream & operator<<(std::ostream & os, const hasDMA & hs) {
-    os << (const hasDMA &) hs;
+    os << (const baseDMA &) hs;
     os << "Style: " << hs.style << std::endl;
     return os;
 }
