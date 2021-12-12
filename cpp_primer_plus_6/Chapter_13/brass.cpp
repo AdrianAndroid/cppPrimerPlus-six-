@@ -66,6 +66,11 @@ void Brass::ViewAcct() const
     restore(initialState, prec);
 }
 
+void Brass::Name(){
+    std::cout << "Brass : " << fullName << std::endl;
+}
+
+
 BrassPlus::BrassPlus(const string & s, long an, double bal, double ml, double r) : Brass(s, an, bal){
     maxLoad = ml;
     owesBank = 0.0;
@@ -111,6 +116,10 @@ void BrassPlus::Withdraw(double amt) {
     restore(initialState, prec);
 }
 
+void BrassPlus::Name(){
+    std::cout << "BrassPlus : " << fullName << std::endl;
+}
+
 format setFormat(){
     return cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
 }
@@ -120,3 +129,5 @@ void restore(format f, precis p)
     cout.setf(f, std::ios_base::floatfield);
     cout.precision(p);
 }
+
+

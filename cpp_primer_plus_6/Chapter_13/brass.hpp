@@ -14,9 +14,11 @@
 class Brass
 {
 private:
-    std::string fullName;
     long acctNum;
     double balance;
+    
+protected:
+    std::string fullName;
 public:
     Brass(const std::string & s = "Nullbody", long an = -1, double bal = 0.0);
     void Deposit(double amt);
@@ -24,6 +26,7 @@ public:
     double Balance() const;
     virtual void ViewAcct() const;
     virtual ~Brass(){}
+    virtual void Name();
 };
 
 class BrassPlus : public Brass{
@@ -38,7 +41,7 @@ public:
     virtual void Withdraw(double amt);
     void ResetMax(double m) {maxLoad = m;}
     void ResetRate(double r) {rate = r;}
-    
+    virtual void Name();
 };
 
 
