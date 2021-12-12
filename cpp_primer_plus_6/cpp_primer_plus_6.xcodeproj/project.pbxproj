@@ -10,6 +10,7 @@
 		BEABAEE12764F43800E0966E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEABAEE02764F43800E0966E /* main.cpp */; };
 		BEABAEEC2765A6C500E0966E /* tabtenn0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEABAEEA2765A6C500E0966E /* tabtenn0.cpp */; };
 		BEABAEF12765ADDC00E0966E /* tabtenn1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEABAEEF2765ADDC00E0966E /* tabtenn1.cpp */; };
+		BEABAEF42765B78500E0966E /* brass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEABAEF22765B78500E0966E /* brass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		BEABAEEB2765A6C500E0966E /* tabtenn0.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tabtenn0.hpp; sourceTree = "<group>"; };
 		BEABAEEF2765ADDC00E0966E /* tabtenn1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tabtenn1.cpp; sourceTree = "<group>"; };
 		BEABAEF02765ADDC00E0966E /* tabtenn1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tabtenn1.hpp; sourceTree = "<group>"; };
+		BEABAEF22765B78500E0966E /* brass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = brass.cpp; sourceTree = "<group>"; };
+		BEABAEF32765B78500E0966E /* brass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = brass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				BEABAEEB2765A6C500E0966E /* tabtenn0.hpp */,
 				BEABAEEF2765ADDC00E0966E /* tabtenn1.cpp */,
 				BEABAEF02765ADDC00E0966E /* tabtenn1.hpp */,
+				BEABAEF22765B78500E0966E /* brass.cpp */,
+				BEABAEF32765B78500E0966E /* brass.hpp */,
 			);
 			path = Chapter_13;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEABAEE12764F43800E0966E /* main.cpp in Sources */,
+				BEABAEF42765B78500E0966E /* brass.cpp in Sources */,
 				BEABAEF12765ADDC00E0966E /* tabtenn1.cpp in Sources */,
 				BEABAEEC2765A6C500E0966E /* tabtenn0.cpp in Sources */,
 			);
